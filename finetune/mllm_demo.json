@@ -1,0 +1,17 @@
+[
+    {
+        "messages": [
+            {
+                "content": "<image>[REDACTED_QUESTION]",
+                "role": "user"
+            },
+            {
+                "content": "[REDACTED_ANSWER]",
+                "role": "assistant"
+            }
+        ],
+        "images": [
+            "[REDACTED_IMAGE_PATH]"
+        ]
+    }
+]
