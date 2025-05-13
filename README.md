@@ -16,7 +16,46 @@
 - 🎯 **Forgetting Rates** – benchmark supports forgetting 5%, 10%, or 15% of the knowledge base.
 - 🤖 **Benchmarked Algorithms** – GA, GD, KL, PO, NPO tested on LLaVA-1.5-7B.
 
-## 📁 Dataset Example
+## 📁 Dataset Source and Example
+
+### Dataset Access
+
+The UMU-bench dataset is publicly available on Hugging Face and can be accessed via the following link:
+
+👉 [https://huggingface.co/datasets/linbojunzi/UMU-bench](https://huggingface.co/datasets/linbojunzi/UMU-bench)
+
+To load the dataset using the Hugging Face `datasets` library:
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("linbojunzi/UMU-bench")
+```
+
+### Dataset Structure
+
+- **Format**: Parquet
+- **Size**: Approximately 500 entries
+- **Splits**:
+  - `train`: 500 entries
+- **Subsets**:
+  - `Full_Set`: Complete dataset
+  - `Real_Person_Set`: Entries representing real individuals
+  - `forget_5`, `forget_10`, `forget_15`: Subsets with varying degrees of data removal
+  - `retain_85`, `retain_90`, `retain_95`: Subsets retaining specific percentages of data
+
+Each dataset entry includes the following fields:
+
+- `ID`: Unique identifier for the entry
+- `image`: Visual representation (image file)
+- `Biography`: Textual biography of the individual
+- `MM_QA`: Multimodal question-answer pairs
+- `UM_QA`: Unimodal question-answer pairs
+- `Classify`: Classification task data
+- `Cloze`: Cloze task data
+- `Generation`: Text generation task data
+
+### Example
 
 ![image-20250512193734080](./README.assets/image-20250512193734080.png)
 
