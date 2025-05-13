@@ -1,6 +1,6 @@
 # UMU-Bench 🧠📷 — A Unified Benchmark for Multimodal Unlearning Evaluation
 
-[![HuggingFace Dataset](https://img.shields.io/badge/%F0%9F%A4%A9%20View%20on-HuggingFace-blue)](https://huggingface.co/datasets/YOUR_DATASET_URL_HERE)
+[![HuggingFace Dataset](https://img.shields.io/badge/%F0%9F%A4%A9%20View%20on-HuggingFace-blue)](https://huggingface.co/datasets/linbojunzi/UMU-bench)
 
 ## 🌟 Overview
 
@@ -87,4 +87,4 @@ Our work is built upon the foundation laid by the [MLLMU-Bench](https://github.c
 
 ## 🤝 Contact
 
-Please use the Hugging Face [community tab](https://huggingface.co/datasets/YOUR_DATASET_URL_HERE/discussions) or open an issue if you have questions or feedback.
+Please use the Hugging Face [community tab](https://huggingface.co/datasets/linbojunzi/UMU-bench/discussions) or open an issue if you have questions or feedback.
