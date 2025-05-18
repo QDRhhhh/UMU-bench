@@ -63,8 +63,6 @@ def load_model_and_processor(model_id):
 
 ######################### Main Training Entry #################################
 def main(args):
-    print("Trainer Status is ", args.trainer)
-
     # Load model and processor
     model, processor = load_model_and_processor(args.model_id)
     print("Processor Tokenizer Length: ", len(processor.tokenizer))
