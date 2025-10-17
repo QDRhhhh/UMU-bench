@@ -1,6 +1,10 @@
-# UMU-Bench 🧠📷 — A Unified Benchmark for Multimodal Unlearning Evaluation
+# UMU-Bench: Closing the Modality Gap in Multimodal Unlearning Evaluation
 
 [![HuggingFace Dataset](https://img.shields.io/badge/%F0%9F%A4%A9%20View%20on-HuggingFace-blue)](https://huggingface.co/datasets/linbojunzi/UMU-bench)
+
+## 📰 News
+
+- [Sep 18, 2025] UMU-Bench has been accepted by NeurIPS 2025 Datasets and Benchmarks Track!
 
 ## 🌟 Overview
 
